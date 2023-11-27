@@ -1,19 +1,23 @@
-# Working with React Router Dom
+# Working with React
 
 ## Purpose of the Project:
-To understand the general structure of React Router Dom and to learn how to work with Private Route.
+
+To understand the general structure of React Router Dom, learn how to work with Private Route and working with Context API.
 
 ## Project Setup
+
 ```
 npm i
 ```
 
 ## To Run the Project:
+
 ```
 npm run dev
 ```
 
 ## To Open the Project in a Browser:
+
 ```
 http://localhost:3000
 ```
@@ -32,9 +36,5 @@ http://localhost:3000
 - [x] Private Route Implementation
 - [x] Implementation of User Profile Page
 - [x] Order Completion Process
+- [x] Working with Context API
 - [x] Finalizing the Project
-
-### Notes:
-- Make sure to understand the structure and flow of React Router Dom.
-- Pay special attention to the implementation of private routes and user authentication.
-- Regularly test each functionality as you implement it to ensure proper integration.

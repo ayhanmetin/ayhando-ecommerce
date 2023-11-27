@@ -7,7 +7,7 @@ function ProductCard({ item }) {
   const { user } = useContext(SiteContext);
 
   function handleClick(product) {
-    const localCarts = JSON.parse(localStorage.getItem('carts')) ?? [];
+    let localCarts = JSON.parse(localStorage.getItem('carts')) ?? [];
     let itemIndex = localCarts.findIndex(
       (localItem) => product.id === localItem.id,
     );
