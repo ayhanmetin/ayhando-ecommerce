@@ -1,0 +1,33 @@
+.product-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Make sure there is a gutter between the cards */
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row > [class*='col-'] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Center the heading */
+.text-center {
+  text-align: center;
+}

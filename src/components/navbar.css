@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #131921;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  color: #ff9900;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.nav-item .btn {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-item .btn:hover {
+  color: #ff9900;
+}

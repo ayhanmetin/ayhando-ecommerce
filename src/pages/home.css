@@ -1,0 +1,53 @@
+
+.carousel {
+  max-width: 70%;
+  margin: auto;
+}
+
+/* Styling the carousel images */
+.carousel-image {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Carousel caption styling - Small Box Design */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7); /* Slightly darker for contrast */
+  color: white;
+  padding: 8px 12px; /* Smaller padding for a more compact look */
+  border-radius: 8px; /* Rounded corners */
+  text-align: left;
+  position: absolute; /* Absolute positioning */
+  bottom: 20px; /* Positioning from the bottom */
+  left: 20px; /* Positioning from the left */
+  max-width: 30%; /* Limiting width to make it a small box */
+  font-size: 0.9em; /* Slightly smaller font */
+}
+
+/* Carousel indicators - smaller and refined */
+.carousel-indicators button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #007bff;
+}
+
+/* Carousel controls - refined styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Carousel inner image adjustments */
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* Ensure text shadow for better readability */
+.carousel-caption h5,
+.carousel-caption p {
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
+}
