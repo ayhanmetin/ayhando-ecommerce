@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext } from 'react';
-import NavBar from './components/navBar';
+import NavBar from './components/NavBar';
 import SiteRoutes from './SiteRoutes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { SiteContext } from './context/SiteContext';
