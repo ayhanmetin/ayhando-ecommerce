@@ -63,13 +63,25 @@ function NavBar() {
                 </li>
               )}
               <li className="nav-item">
-                <NavLink
+                <a
+                  className="nav-link"
+                  href="https://www.ayhanmetin.eu/about"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <b>About</b>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
                   style={{ color: '#86CA25' }}
                   className="nav-link"
-                  to="https://www.ayhanmetin.eu/testhub"
+                  href="https://www.ayhanmetin.eu/testhub"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <b>TestHub</b>
-                </NavLink>
+                  <b>🧪 TestHub</b>
+                </a>
               </li>
             </ul>
           </div>
