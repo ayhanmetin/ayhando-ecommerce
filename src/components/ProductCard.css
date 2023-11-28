@@ -4,7 +4,9 @@
   margin: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   overflow: hidden;
 }
 
@@ -14,7 +16,7 @@
 }
 
 .imgStyle {
-  height: 180px; 
+  height: 180px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -55,8 +57,6 @@
   background-color: #e6b800;
 }
 
-
 .cardBodyStyle {
-  background-color: var(--card-background-color); 
+  background-color: var(--card-background-color);
 }
-

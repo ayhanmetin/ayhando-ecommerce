@@ -80,7 +80,7 @@ function NavBar() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <b>🧪 TestHub</b>
+                  <b>TestHub</b>
                 </a>
               </li>
             </ul>
