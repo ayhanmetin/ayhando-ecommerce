@@ -4,9 +4,8 @@ import { useContext } from 'react';
 import { SiteContext } from '../context/SiteContext';
 
 function NavBar() {
-
   const { user, handleLogout } = useContext(SiteContext);
-  
+
   return (
     <>
       <nav
@@ -67,9 +66,9 @@ function NavBar() {
                 <NavLink
                   style={{ color: '#86CA25' }}
                   className="nav-link"
-                  to="/"
+                  to="https://www.ayhanmetin.eu/testhub"
                 >
-                  TestHub
+                  <b>TestHub</b>
                 </NavLink>
               </li>
             </ul>
