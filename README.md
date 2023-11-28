@@ -45,6 +45,3 @@ http://localhost:3000
 - [x] Working with Context API
 - [x] Finalizing the Project
 
-## 🔍 Spot the Bug Challenge! 🐞
-
-I've hidden a deliberate bug in the e-commerce page for a bit of fun. If you find it, message me - let's see how sharp your bug-hunting skills are!
