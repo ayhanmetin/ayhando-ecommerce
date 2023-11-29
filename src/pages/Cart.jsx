@@ -23,7 +23,7 @@ export default function Cart({ user }) {
 
   const updateQuantity = (id, quantity) => {
     if (!Number.isInteger(quantity) || quantity < 1) {
-      return; // Prevents setting non-integer or negative quantities
+      return;
     }
     const updatedCarts = carts.map((item) =>
       item.id === id ? { ...item, quantity: quantity } : item,
