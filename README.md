@@ -1,5 +1,7 @@
 # Working with React
 
+![Alt text](e-commerce.png)
+
 ## Purpose of the Project:
 
 To understand the general structure of React Router Dom, learn how to work with Private Route and working with Context API.
