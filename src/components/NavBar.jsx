@@ -71,7 +71,8 @@ function NavBar() {
                 >
                   <b>About</b>
                 </a>
-                              <li className="nav-item">
+              </li>
+              <li className="nav-item">
                 <a
                   style={{ color: '#86CA25' }}
                   className="nav-link"
