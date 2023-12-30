@@ -65,22 +65,11 @@ function NavBar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://www.ayhanmetin.eu/about"
+                  href="https://www.ayhanmetin.eu/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <b>About</b>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  style={{ color: '#86CA25' }}
-                  className="nav-link"
-                  href="https://www.ayhanmetin.eu/testhub"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <b>TestHub</b>
                 </a>
               </li>
             </ul>
